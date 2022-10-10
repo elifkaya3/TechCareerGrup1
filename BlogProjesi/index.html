@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Linki -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap min linki -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap bundle min linki -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fontawesome linki -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <title>Grup Blog Uygulaması</title>
+  </head>
+  <body>
+    <div>
+      <!-- navbar başlangıcı -->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="logo">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="https://d9hhrg4mnvzow.cloudfront.net/tr.techcareer.net/techmasters/57e21290-techcareer-logo-web_105a00k000000000000028.png"
+                height="25px"
+                alt=""
+            /></a>
+          </div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-md-none d-lg-block"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav font-weight-bold">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Anasayfa | <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hakkımızda |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Makaleler |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolyo |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">İletişim</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar bitişi -->
+
+      <!-- Slider başlangıcı -->
+      <div class="ustslide row">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide sld2"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://picsum.photos/id/1000/1200/480"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/1003/1200/480"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/1004/1200/480"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/1000/1200/480"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <br />
+      <!-- Slider bitişi -->
+
+      <!-- Card başlangıcı -->
+      <div class="container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="flex-direction-column d-flex justify-content-around">
+              <div class="card" style="height: 450px; width: 320px">
+                <div class="image">
+                  <img
+                    class="card-img-top rounded-circle"
+                    src="https://picsum.photos/id/1005/820/480"
+                    alt="Card image cap"
+                    style="width: 100px; height: 100px"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Elif Kaya</p>
+                  <p class="card-text">Software Developer</p>
+                  <p class="card-text">İstanbul/Küçükçekmece</p>
+                </div>
+                <div class="cart-info">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    P
+                  </a>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    W
+                  </a>
+                </div>
+              </div>
+              <div class="card" style="height: 450px; width: 320px">
+                <div class="image">
+                  <img
+                    class="card-img-top rounded-circle"
+                    src="https://picsum.photos/id/1015/820/480"
+                    alt="Card image cap"
+                    style="width: 100px; height: 100px"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Tuğberk Uğuzlar</p>
+                  <p class="card-text">Software Developer</p>
+                  <p class="card-text">İstanbul/Beşiktaş</p>
+                </div>
+                <div class="cart-info">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    P
+                  </a>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    W
+                  </a>
+                </div>
+              </div>
+              <div class="card" style="height: 450px; width: 320px">
+                <div class="image">
+                  <img
+                    class="card-img-top rounded-circle"
+                    src="https://picsum.photos/id/1006/820/480"
+                    alt="Card image cap"
+                    style="width: 100px; height: 100px"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Emre Ercan</p>
+                  <p class="card-text">Software Developer</p>
+                  <p class="card-text">İstanbul/Kadıköy</p>
+                </div>
+                <div class="cart-info">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    P
+                  </a>
+                  <a
+                    class="border border-radius rounded-circle d-flex text-center"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                  >
+                    W
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <!-- Card bitişi -->
+
+      <!-- Footer başlangıcı -->
+      <div class="footer border border-radius">
+        <div class="solfooter">2022 @ Tüm Hakları Saklıdır</div>
+        <div class="sagfooter">
+          <a
+            class="border border-radius rounded-circle d-flex text-center"
+            style="width: 40px; height: 40px"
+            href="#"
+          >
+            L
+          </a>
+          <a
+            class="border border-radius rounded-circle d-flex text-center"
+            style="width: 40px; height: 40px"
+            href="#"
+          >
+            I
+          </a>
+          <a
+            class="border border-radius rounded-circle d-flex text-center"
+            style="width: 40px; height: 40px"
+            href="#"
+          >
+            T
+          </a>
+          <a
+            class="border border-radius rounded-circle d-flex text-center"
+            style="width: 40px; height: 40px"
+            href="#"
+          >
+            F
+          </a>
+        </div>
+      </div>
+      <!-- Footer bitişi -->
+    </div>
+  </body>
+</html>

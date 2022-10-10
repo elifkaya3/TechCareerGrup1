@@ -1,0 +1,21 @@
+.txt{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ustslide{
+    display: flex;
+    justify-content: center;
+}
+.sagfooter{
+    display: flex ;
+    justify-content:flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+a:link{
+    text-decoration:none;
+}

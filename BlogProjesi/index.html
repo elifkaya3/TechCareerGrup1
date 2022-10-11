@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+
     <!-- Css Linki -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Bootstrap min linki -->
@@ -40,7 +42,7 @@
     <div>
       <!-- navbar başlangıcı -->
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-around">
           <div class="logo">
             <a class="navbar-brand" href="#"
               ><img
@@ -49,7 +51,43 @@
                 alt=""
             /></a>
           </div>
-          <div>
+         
+            <div class="collapse navbar-collapse d-md-none d-lg-block"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav font-weight-bold">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" key="0"
+                    >Anasayfa | <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" key="1">Hakkımızda |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" key="2">Makaleler |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" key="3">Portfolyo |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" key="4">İletişim</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sagdil">
+              <button class="btn btn-white" type="button" id="drop_yazı" 
+              aria-haspopup="true" aria-expanded="false">
+                EN
+              </button>
+              <!-- <div class="dropdown-menu" aria-labelledby="drop_yazı">
+                <a class="dropdown-item" id="tr" href="#">Türkçe</a>
+                <a class="dropdown-item" id="en" href="#">English</a>
+              </div> -->
+            </div> 
+
+            <div class="navbarbuton">
             <button
               class="navbar-toggler"
               type="button"
@@ -61,30 +99,6 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="collapse navbar-collapse d-md-none d-lg-block"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav font-weight-bold">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >Anasayfa | <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hakkımızda |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Makaleler |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolyo |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">İletişim</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </nav>
       </div>
@@ -194,14 +208,12 @@
                 </div>
                 <div class="card-body">
                   <p class="card-text">Elif Kaya</p>
-                  <p class="card-text">Software Developer</p>
-                  <p class="card-text">İstanbul/Küçükçekmece</p>
+                  <p class="card-text" key="5">Yazılım Geliştirici</p>
+                  <p class="card-text">İstanbul/Beylikdüzü</p>
                 </div>
                 <div class="cart-info">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                  <p class="card-text" key="6">
+                    Bu, ek içeriğe doğal bir giriş olarak aşağıdaki destekleyici metni içeren daha geniş bir karttır. Bu içerik biraz daha uzun.
                   </p>
                   <a
                     class="border border-radius rounded-circle d-flex text-center"
@@ -230,14 +242,12 @@
                 </div>
                 <div class="card-body">
                   <p class="card-text">Tuğberk Uğuzlar</p>
-                  <p class="card-text">Software Developer</p>
+                  <p class="card-text" key="7">Software Developer</p>
                   <p class="card-text">İstanbul/Beşiktaş</p>
                 </div>
                 <div class="cart-info">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                  <p class="card-text" key="8">
+                    Bu, ek içeriğe doğal bir giriş olarak aşağıdaki destekleyici metni içeren daha geniş bir karttır. Bu içerik biraz daha uzun.
                   </p>
                   <a
                     class="border border-radius rounded-circle d-flex text-center"
@@ -266,14 +276,12 @@
                 </div>
                 <div class="card-body">
                   <p class="card-text">Emre Ercan</p>
-                  <p class="card-text">Software Developer</p>
+                  <p class="card-text" key="9">Software Developer</p>
                   <p class="card-text">İstanbul/Kadıköy</p>
                 </div>
                 <div class="cart-info">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                  <p class="card-text" key="10">
+                    Bu, ek içeriğe doğal bir giriş olarak aşağıdaki destekleyici metni içeren daha geniş bir karttır. Bu içerik biraz daha uzun.
                   </p>
                   <a
                     class="border border-radius rounded-circle d-flex text-center"
@@ -300,7 +308,7 @@
 
       <!-- Footer başlangıcı -->
       <div class="footer border border-radius">
-        <div class="solfooter">2022 @ Tüm Hakları Saklıdır</div>
+        <div class="solfooter" key="11">2022 @Tüm Hakları Saklıdır</div>
         <div class="sagfooter">
           <a
             class="border border-radius rounded-circle d-flex text-center"

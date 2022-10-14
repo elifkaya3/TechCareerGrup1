@@ -37,3 +37,23 @@ a:link{
         flex-direction: column;
     }
 }
+
+.portfolio-main-title{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-main-desc{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-cards{
+    display: flex;
+}
+.portfolio-title{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-description{
+    display: flex;
+    justify-content: center;
+}

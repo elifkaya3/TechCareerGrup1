@@ -57,3 +57,8 @@ a:link{
     display: flex;
     justify-content: center;
 }
+
+.info{
+    width: 100%;
+
+}
